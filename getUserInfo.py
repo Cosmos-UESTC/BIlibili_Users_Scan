@@ -56,7 +56,7 @@ time1 = time.time()
 urls = []
 
 # Please change the range data by yourself.
-for m in range(400, ):
+for m in range(400, 401):
     for i in range (m*100 , (m+1)*100):
         url = 'https://space.bilibili.com/' + str(i)
         urls.append(url)
