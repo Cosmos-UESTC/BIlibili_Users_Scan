@@ -127,7 +127,7 @@ for m in range(400, 401):
                     print(jsDict)
                     print('nmsl?')
                     # Please write your SQL's information.
-                    conn = psycopg2.connect(database="bilibili", user="postgres", password="x200105y", host="localhost", port="9194")
+                    conn = psycopg2.connect(database="bilibili", user="postgres", password="********", host="localhost", port="9194")
                     print('nmsl~')
                     cur = conn.cursor()
                     # sqlq = 'create table nmsl();'
